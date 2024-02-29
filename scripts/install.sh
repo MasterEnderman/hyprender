@@ -42,7 +42,7 @@ then
 	fi
 
 	cd ~/.clone/yay
-	makepkg -si
+	makepkg -si --noconfirm
 
 	if [ $? -eq 0 ] 
 	then
