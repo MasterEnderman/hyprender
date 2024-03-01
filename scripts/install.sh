@@ -61,11 +61,14 @@ pkg_install hyprland		# WindowManager
 pkg_install hyprlock		# LockScreen
 pkg_install hypridle		# IdleDeamon
 pkg_install waybar		# StatusBar
+pkg_install ttf-font-awesome    # SpecialIconFont
 pkg_install thunar		# FileExplorer
 pkg_install rofi		# ApplicationLauncher
 pkg_install dunst		# NotificationManager
-pkg_install kitty		# Terminal Emulator
-pkg_install python-pywal	# WallpaperManager and ThemeGenerator
+# pkg_install kitty		# Terminal Emulator
+pkg_install alacritty		# Terminal Emulator
+pkg_install python-pywal	# ThemeGenerator
+pkg_install swww		# WallpaperManager
 
 # install other tools I use
 

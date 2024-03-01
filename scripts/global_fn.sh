@@ -39,7 +39,7 @@ pkg_install()
     if pacman -Qi $PkgIn &> /dev/null
     then
 	echo "${PkgIn} is already installed."
-	return 1
+	return 0
     else
 	yay -S ${PkgIn} --noconfirm
 	return 0
